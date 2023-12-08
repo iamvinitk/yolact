@@ -858,7 +858,7 @@ def evalvideo(net:Yolact, path:str, out_path:str=None):
             else:
                 fps = 0
             
-            fps_str = 'Processing FPS: %.2f | Video Playback FPS: %.2f | Frames in Buffer: %d' % (fps, video_fps, frame_buffer.qsize())
+            fps_str = 'Vinit Kanani | Processing FPS: %.2f | Video Playback FPS: %.2f | Frames in Buffer: %d' % (fps, video_fps, frame_buffer.qsize())
             if not args.display_fps:
                 print('\r' + fps_str + '    ', end='')
 
